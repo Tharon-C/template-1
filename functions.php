@@ -31,7 +31,7 @@ function image_path_shortcode($args) {
 
 //Adds page path shortcode. syntax: [page_path id="..."]
 
-function page_path($args) {
+function page_path_shortcode($args) {
     $id = $args['id'];
     return get_permalink($id);
 };
